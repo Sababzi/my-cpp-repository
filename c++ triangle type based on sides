@@ -1,0 +1,41 @@
+#include <iostream>
+#include <sstream>
+#include <string>
+#include <cstdlib>
+#include <cmath>
+using namespace std;
+int main()
+{
+	double a,b,c;
+	cout<<"please enter first edge\n";
+cin>>a;
+	cout<<"please enter second edge\n";
+	cin>>b;
+	cout<<"please enter third edge\n";
+cin>>c;
+if(a==b){
+	if(a==c){
+	cout<<"Equilateral triangle\n";
+}else{
+	cout<<"Isosceles triangle\n";
+}
+	}else{
+		if(b==c){
+		cout<<"Isosceles triangle\n";
+			
+}else{
+		cout<<"Different sided  triangle\n";
+	 	
+}
+	}
+return 0.0;
+	}
+
+
+
+
+
+
+
+
+
